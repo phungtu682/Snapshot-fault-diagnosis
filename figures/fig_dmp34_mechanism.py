@@ -193,7 +193,7 @@ def panel_b(ax, bus, title):
     if coincident:
         # zoomed axes: circle the merged cloud and point to it
         ax.add_patch(Ellipse(tuple(cen), 0.03, 0.022, fill=False, ec="k", lw=0.7, ls="--", zorder=5))
-        ax.annotate("all three classes\nmerge within the noise", xy=(cen[0] + 0.012, cen[1] + 0.008),
+        ax.annotate("all three fault types\noverlap within the noise", xy=(cen[0] + 0.012, cen[1] + 0.008),
                     xytext=(0.62, 0.62), textcoords="axes fraction", fontsize=6.4, ha="center", color="k",
                     arrowprops=arw)
     else:
@@ -265,17 +265,17 @@ def panel_d(ax):
             t.set_color(BLUE)
             t.set_fontweight("bold")
     ax.set_ylim(-0.8, n - 0.2)
-    ax.set_xlabel(f"Class-informative events covered (of {N_INFORM})", fontsize=7)
-    ax.set_ylabel("Candidate bus", fontsize=7)
+    ax.set_xlabel(f"Type-informative events covered (of {N_INFORM})", fontsize=7)
+    ax.set_ylabel("Candidate location", fontsize=7)
     ax.tick_params(length=1.5, labelsize=6)
     ax.set_xlim(0, N_INFORM * 1.75)
     ax.set_xticks([0, 50, 100, 150, 200])
     ax.text(0.98, 0.24, "DMP\n{%s}\n%d/%d events\n(%.0f%%)"
             % (", ".join(sorted(SEL_B)), N_INFORM_COVERED, N_INFORM, 100 * N_INFORM_COVERED / N_INFORM),
             transform=ax.transAxes, fontsize=5.6, ha="right", va="center", color=BLUE)
-    ax.text(0.98, 0.06, "best of all 5984 sets\n%d unreachable" % UNCOVERABLE,
+    ax.text(0.98, 0.06, "best of all 5984 sets\n%d events not coverable" % UNCOVERABLE,
             transform=ax.transAxes, fontsize=5.6, ha="right", va="center", color="#8B0000")
-    ax.set_title("(d) Step 4: bus ranking and DMP set", loc="left", fontsize=7.5, pad=3)
+    ax.set_title("(d) Step 4: location ranking and DMP set", loc="left", fontsize=7.5, pad=3)
     bare(ax)
 
 
