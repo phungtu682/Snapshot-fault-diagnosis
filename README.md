@@ -82,6 +82,7 @@ The R3 notebooks rerun or extend the experiments for the revised manuscript. Res
 | H | `R3H_inverter_gridcode.ipynb` | `R3_H_inverter_gridcode.json` | grid-code inverter fault strategies (supplementary) |
 | T | `R3T_transfer_noleak.ipynb` | `R3_T_transfer_noleak.json` | model trained without inverters, tested on new faults with inverters (different random seed, overlap check) |
 | I | `R3I_ece.ipynb` | `R3_I_ece.json` | expected calibration error |
+| J | `R3J_table5_dmp.ipynb` | `R3_J_table5.json` | Table 5 (TVE accuracy class needed for a target accuracy) recomputed on the DMP sensor sets of Table 7 |
 
 The transfer columns of `R3_G_der_ieee.json` and `R3_H_inverter_gridcode.json` reuse the training seed
 and are superseded by part T.
