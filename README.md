@@ -8,7 +8,7 @@ The repository reproduces every number, table and figure of the paper: fault sim
 IEEE 13-, 34- and 123-node feeders (OpenDSS), the four feature sets (AGG, PPA, SEQ, FPS), the
 classifier benchmark, the measurement-error framework (TVE accuracy classes), the
 discriminability-margin placement (DMP) against twelve placement methods, the robustness tests,
-faulted-zone identification, the abstention (reject) option and the validation on the public
+faulted-zone identification, escalation of uncertain cases and the validation on the public
 DER-Fault data set.
 
 ## Measurement-error model
@@ -45,21 +45,22 @@ paper/                  LaTeX source and PDF of the preprint
 | Paper item | Script / notebook | Result |
 |---|---|---|
 | Table 2 (reference noise levels) | `experiments/k4lib.py` (`tve_quantiles`) | -- |
-| Table 3 (feature sets, Cover-Hart bound) | `e1_ladder.py` | `results/e1_ladder.json` |
-| Figure 4 (accuracy by R_f and TVE class) | `e3_rf_noise.py` | `results/e3_rf_noise.json` |
+| Table 3 (feature sets, Cover-Hart estimate) | `e1_ladder.py` | `results/e1_ladder.json` |
+| Figures 1-3 (overview, IEEE 13-node feeder, workflow) | drawings in the LaTeX source (TikZ) | - |
+| Figure 5 (accuracy by R_f and TVE class) | `e3_rf_noise.py` | `results/e3_rf_noise.json` |
 | Table 4 (1 % TVE class vs micro-PMU) | `e11_upmu_noise.py` | `results/e11_upmu_noise.json` |
 | Table 5 (required accuracy class) | `notebooks/N2_detectability_law.ipynb`, `notebooks/S_sd_supplement.ipynb` | `notebooks/results_N1_N6/N2_spec.csv`, `notebooks/results_S/S_spec_sd.csv` |
 | Table 6 (13 classifiers) | `e13_classifiers.py` | `results/e13_classifiers.json` |
-| Figure 5 (all 364 three-bus subsets) | `e4_placement.py` | `results/e4_placement.json` |
+| Figure 6 (all 364 three-bus subsets) | `e4_placement.py` | `results/e4_placement.json` |
 | Table 7 (placement incl. distinguishability method) | `notebooks/N1_e01_placement.ipynb` | `notebooks/results_N1_N6/N1_comparison.csv` |
-| Figure 6, Wilcoxon tests | `e4b_dmp.py`, `e14_placement_baselines.py`, `e16_dmp2.py` | `results/e4b_dmp.json`, `e14_*.json`, `e16_*.json` |
+| Figure 7, Wilcoxon tests | `e4b_dmp.py`, `e14_placement_baselines.py`, `e16_dmp2.py` | `results/e4b_dmp.json`, `e14_*.json`, `e16_*.json` |
 | Table 8 (conditions of Khattak and Choudhry) | `notebooks/S_sd_supplement.ipynb` | `notebooks/results_S/S_repro_sd.csv` |
 | Table 9 (selection time) | `e14_placement_baselines.py` | `results/e14_placement_baselines.json` |
 | Table 10 (DER-Fault) | `e9_derfault.py` | `results/e9_derfault.json` |
 | Table 11 (robustness) | `e17_robust_sd.py` | `results/e17_robust_sd.json` |
 | Table 12 (faulted zone) | `notebooks/N5_zone_identification.ipynb` | `notebooks/results_N1_N6/N5_*.csv` |
-| Table 13 (reject option) | `notebooks/N6v2_reject_margin.ipynb`, `notebooks/S_sd_supplement.ipynb` | `notebooks/results_N6v2/`, `notebooks/results_S/S_reject_folds.csv` |
-| Figure 3 (worked DMP example) | `figures/compute_dmp34.py`, `figures/fig_dmp34_mechanism.py` | `figures/data/dmp34.npz` |
+| Table 13 (escalation) | `notebooks/N6v2_reject_margin.ipynb`, `notebooks/S_sd_supplement.ipynb` | `notebooks/results_N6v2/`, `notebooks/results_S/S_reject_folds.csv` |
+| Figure 4 (worked DMP example) | `figures/compute_dmp34.py`, `figures/fig_dmp34_mechanism.py` | `figures/data/dmp34.npz` |
 | Inference time | `e6_timing.py` | `results/e6_timing.json` |
 
 `N3_current_vs_voltage.ipynb` and `N4a/N4b` are supplementary (substation current and N-1
