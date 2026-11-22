@@ -1,0 +1,890 @@
+{
+ "results": [
+  {
+   "feeder": 13,
+   "test": "noDER",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9016393442622951,
+   "hif": 0.7076086956521739,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "G30",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8862779871425405,
+   "hif": 0.6663043478260869,
+   "n": 4511
+  },
+  {
+   "feeder": 13,
+   "test": "G60",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8626705435025721,
+   "hif": 0.5836956521739131,
+   "n": 4471
+  },
+  {
+   "feeder": 13,
+   "test": "H_limit",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8614190687361419,
+   "hif": 0.5815217391304348,
+   "n": 4510
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8614100593015594,
+   "hif": 0.5706521739130435,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor_neg",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.861849330112014,
+   "hif": 0.5782608695652174,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_mc",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8605464480874317,
+   "hif": 0.5717391304347826,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "noDER",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9234972677595629,
+   "hif": 0.7880434782608695,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "G30",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.915096430946575,
+   "hif": 0.7695652173913043,
+   "n": 4511
+  },
+  {
+   "feeder": 13,
+   "test": "G60",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9058376202191903,
+   "hif": 0.7565217391304347,
+   "n": 4471
+  },
+  {
+   "feeder": 13,
+   "test": "H_limit",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9101995565410199,
+   "hif": 0.7597826086956522,
+   "n": 4510
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9145618273665715,
+   "hif": 0.7771739130434783,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor_neg",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9141225565561168,
+   "hif": 0.775,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_mc",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9116939890710383,
+   "hif": 0.7554347826086957,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "noDER",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9591256830601093,
+   "hif": 0.8630434782608696,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "G30",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9532254489026823,
+   "hif": 0.8630434782608696,
+   "n": 4511
+  },
+  {
+   "feeder": 13,
+   "test": "G60",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9577275777231045,
+   "hif": 0.866304347826087,
+   "n": 4471
+  },
+  {
+   "feeder": 13,
+   "test": "H_limit",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9554323725055432,
+   "hif": 0.8695652173913043,
+   "n": 4510
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.959147814627718,
+   "hif": 0.8619565217391304,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor_neg",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9604656270590819,
+   "hif": 0.866304347826087,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_mc",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9580327868852458,
+   "hif": 0.8597826086956522,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "noDER",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9801092896174863,
+   "hif": 0.9206521739130434,
+   "n": 4575
+  },
+  {
+   "feeder": 13,
+   "test": "G30",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9780536466415429,
+   "hif": 0.9239130434782609,
+   "n": 4511
+  },
+  {
+   "feeder": 13,
+   "test": "G60",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.972713039588459,
+   "hif": 0.9195652173913044,
+   "n": 4471
+  },
+  {
+   "feeder": 13,
+   "test": "H_limit",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9738359201773836,
+   "hif": 0.9119565217391304,
+   "n": 4510
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9804524489347682,
+   "hif": 0.9239130434782609,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor_neg",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9732044805622666,
+   "hif": 0.9195652173913044,
+   "n": 4553
+  },
+  {
+   "feeder": 13,
+   "test": "H_mc",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9790163934426229,
+   "hif": 0.9173913043478261,
+   "n": 4575
+  },
+  {
+   "feeder": 34,
+   "test": "noDER",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9600357222594329,
+   "hif": 0.9171094580233794,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "G30",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9616091954022988,
+   "hif": 0.9213602550478215,
+   "n": 4350
+  },
+  {
+   "feeder": 34,
+   "test": "G60",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9594438006952491,
+   "hif": 0.9202975557917109,
+   "n": 4315
+  },
+  {
+   "feeder": 34,
+   "test": "H_limit",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9571254567600487,
+   "hif": 0.9213602550478215,
+   "n": 4105
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9575049701789264,
+   "hif": 0.9139213602550478,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor_neg",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.9453280318091452,
+   "hif": 0.8746014877789585,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_mc",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.961375306988167,
+   "hif": 0.9234856535600425,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "noDER",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.971868720696584,
+   "hif": 0.9351753453772582,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "G30",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9645977011494253,
+   "hif": 0.922422954303932,
+   "n": 4350
+  },
+  {
+   "feeder": 34,
+   "test": "G60",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9673232908458864,
+   "hif": 0.9277364505844846,
+   "n": 4315
+  },
+  {
+   "feeder": 34,
+   "test": "H_limit",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9651644336175396,
+   "hif": 0.9181721572794899,
+   "n": 4105
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9666998011928429,
+   "hif": 0.9309245483528161,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor_neg",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9654572564612326,
+   "hif": 0.9287991498405951,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_mc",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.971198928332217,
+   "hif": 0.9298618490967057,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "noDER",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9781201160973432,
+   "hif": 0.9139213602550478,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "G30",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9767816091954022,
+   "hif": 0.924548352816153,
+   "n": 4350
+  },
+  {
+   "feeder": 34,
+   "test": "G60",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9784472769409038,
+   "hif": 0.926673751328374,
+   "n": 4315
+  },
+  {
+   "feeder": 34,
+   "test": "H_limit",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9756394640682094,
+   "hif": 0.9213602550478215,
+   "n": 4105
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9768886679920478,
+   "hif": 0.926673751328374,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor_neg",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9657057654075547,
+   "hif": 0.8852284803400637,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_mc",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9790131725831659,
+   "hif": 0.9256110520722636,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "noDER",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9928555481134181,
+   "hif": 0.9691817215727949,
+   "n": 4479
+  },
+  {
+   "feeder": 34,
+   "test": "G30",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9933333333333333,
+   "hif": 0.975557917109458,
+   "n": 4350
+  },
+  {
+   "feeder": 34,
+   "test": "G60",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9904982618771726,
+   "hif": 0.9617428267800212,
+   "n": 4315
+  },
+  {
+   "feeder": 34,
+   "test": "H_limit",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9895249695493301,
+   "hif": 0.9649309245483528,
+   "n": 4105
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9917992047713717,
+   "hif": 0.9691817215727949,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor_neg",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9915506958250497,
+   "hif": 0.9659936238044633,
+   "n": 4024
+  },
+  {
+   "feeder": 34,
+   "test": "H_mc",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9928555481134181,
+   "hif": 0.9691817215727949,
+   "n": 4479
+  },
+  {
+   "feeder": 123,
+   "test": "noDER",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.870903454384411,
+   "hif": 0.6902050113895216,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "G30",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8734993330369053,
+   "hif": 0.7015945330296127,
+   "n": 4498
+  },
+  {
+   "feeder": 123,
+   "test": "G60",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8697986577181208,
+   "hif": 0.693621867881549,
+   "n": 4470
+  },
+  {
+   "feeder": 123,
+   "test": "H_limit",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8671857619577308,
+   "hif": 0.6856492027334852,
+   "n": 4495
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8678033658104517,
+   "hif": 0.683371298405467,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor_neg",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8669176262178919,
+   "hif": 0.6822323462414579,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_mc",
+   "noise": "1% TVE",
+   "rep": "SEQ",
+   "acc": 0.8691319751992914,
+   "hif": 0.6856492027334852,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "noDER",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9014614703277236,
+   "hif": 0.7961275626423691,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "G30",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.9044019564250778,
+   "hif": 0.7995444191343963,
+   "n": 4498
+  },
+  {
+   "feeder": 123,
+   "test": "G60",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.8950782997762864,
+   "hif": 0.7619589977220956,
+   "n": 4470
+  },
+  {
+   "feeder": 123,
+   "test": "H_limit",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.896551724137931,
+   "hif": 0.7801822323462415,
+   "n": 4495
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.8968113374667848,
+   "hif": 0.7790432801822323,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor_neg",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.8950398582816652,
+   "hif": 0.7699316628701595,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_mc",
+   "noise": "1% TVE",
+   "rep": "FPS",
+   "acc": 0.8981399468556245,
+   "hif": 0.7790432801822323,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "noDER",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9284765279007972,
+   "hif": 0.8895216400911162,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "G30",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9281903068030236,
+   "hif": 0.9009111617312073,
+   "n": 4498
+  },
+  {
+   "feeder": 123,
+   "test": "G60",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.921923937360179,
+   "hif": 0.8929384965831435,
+   "n": 4470
+  },
+  {
+   "feeder": 123,
+   "test": "H_limit",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9201334816462736,
+   "hif": 0.8963553530751709,
+   "n": 4495
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9202834366696191,
+   "hif": 0.8895216400911162,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor_neg",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9205048715677591,
+   "hif": 0.8872437357630979,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_mc",
+   "noise": "uPMU",
+   "rep": "SEQ",
+   "acc": 0.9216120460584588,
+   "hif": 0.8895216400911162,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "noDER",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9630203720106288,
+   "hif": 0.907744874715262,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "G30",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9584259670964873,
+   "hif": 0.9020501138952164,
+   "n": 4498
+  },
+  {
+   "feeder": 123,
+   "test": "G60",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9608501118568232,
+   "hif": 0.9020501138952164,
+   "n": 4470
+  },
+  {
+   "feeder": 123,
+   "test": "H_limit",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9586206896551724,
+   "hif": 0.907744874715262,
+   "n": 4495
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9614703277236493,
+   "hif": 0.9066059225512528,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor_neg",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9614703277236493,
+   "hif": 0.9066059225512528,
+   "n": 4516
+  },
+  {
+   "feeder": 123,
+   "test": "H_mc",
+   "noise": "uPMU",
+   "rep": "FPS",
+   "acc": 0.9608060230292295,
+   "hif": 0.9009111617312073,
+   "n": 4516
+  }
+ ],
+ "checks": [
+  {
+   "feeder": 13,
+   "test": "noDER",
+   "n_test": 4575,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 13,
+   "test": "G30",
+   "n_test": 4511,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 13,
+   "test": "G60",
+   "n_test": 4471,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 13,
+   "test": "H_limit",
+   "n_test": 4510,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor",
+   "n_test": 4553,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 13,
+   "test": "H_kfactor_neg",
+   "n_test": 4553,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 13,
+   "test": "H_mc",
+   "n_test": 4575,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "noDER",
+   "n_test": 4479,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "G30",
+   "n_test": 4350,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "G60",
+   "n_test": 4315,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "H_limit",
+   "n_test": 4105,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor",
+   "n_test": 4024,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "H_kfactor_neg",
+   "n_test": 4024,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 34,
+   "test": "H_mc",
+   "n_test": 4479,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "noDER",
+   "n_test": 4516,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "G30",
+   "n_test": 4498,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "G60",
+   "n_test": 4470,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "H_limit",
+   "n_test": 4495,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor",
+   "n_test": 4516,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "H_kfactor_neg",
+   "n_test": 4516,
+   "overlap_removed": 0
+  },
+  {
+   "feeder": 123,
+   "test": "H_mc",
+   "n_test": 4516,
+   "overlap_removed": 0
+  }
+ ],
+ "seed_train": 2026,
+ "seed_test": 2027
+}

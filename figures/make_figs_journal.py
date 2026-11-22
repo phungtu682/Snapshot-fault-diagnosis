@@ -138,7 +138,7 @@ def fig_placement():
                ("Information greedy", "Information greedy", "#999933", "-", "<", 0.8, False),
                ("Accuracy greedy", "Accuracy greedy", "#888888", "-", ">", 0.8, False)]
     feeders = [("ieee13", "IEEE 13-node"), ("ieee34", "IEEE 34-node"), ("ieee123", "IEEE 123-node")]
-    metrics = [("acc", "Accuracy (%)"), ("hif", "HIF accuracy (%)"), ("n1", "N-1 accuracy (%)")]
+    metrics = [("acc", "Accuracy (%)"), ("hif", "MRF accuracy (%)"), ("n1", "N-1 accuracy (%)")]
     with plt.rc_context(rc):
         fig, axs = plt.subplots(3, 3, figsize=(6.9, 6.6), sharex="col")
         for j, (fd, name) in enumerate(feeders):

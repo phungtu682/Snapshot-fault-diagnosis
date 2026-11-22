@@ -35,7 +35,7 @@ experiments/            simulation, features, placement and the experiments e1-e
   data/derfault/        DER-Fault in .npz form plus its metadata files
   extra/                precomputed noise-free design fault scenarios and feeder graphs
   results/              JSON results of e1-e17
-notebooks/              N1-N5, N6v2, S and R2 (Kaggle notebooks) with their result files
+notebooks/              N1-N5, N6v2, S, R2 and R3 (Kaggle notebooks) with their result files
 figures/                figure scripts, figure data and all figures (pdf/, png/)
 paper/                  LaTeX source and PDF of the preprint
 ```
@@ -64,6 +64,27 @@ paper/                  LaTeX source and PDF of the preprint
 
 `N3_current_vs_voltage.ipynb` and `N4a/N4b` are supplementary (substation current and N-1
 placement); they are not reported in the paper's tables.
+
+## Revision R3 (November 2026)
+
+The R3 notebooks rerun or extend the experiments for the revised manuscript. Results are in
+`notebooks/results_R3/`.
+
+| Part | Notebook | Result | Content |
+|---|---|---|---|
+| A | `R3_teacher_comments.ipynb` | `R3_A_ablation.json` | removal of f1-f4 from AGG at the 1 % TVE class |
+| B | `R3_teacher_comments.ipynb` | `R3_B_table3.json` | Table 3 (seven classifiers x four feature sets, 2 seeds x 5 folds, Cover-Hart estimate) |
+| C | `R3_teacher_comments.ipynb` | `R3_C_dmp_reference.json` | DMP, three sensors, FPS, 1 % TVE and micro-PMU |
+| D | `R3_teacher_comments.ipynb` | `R3_D_n1_protocols.json` | loss of one sensor, with and without retraining |
+| E | `R3_teacher_comments.ipynb` | `R3_E_cover_hart_vs_n.json` | Cover-Hart estimate against sample size |
+| F | `R3_teacher_comments.ipynb` | `R3_F_rf1000.json` | fault resistance up to 1000 ohm |
+| G | `R3_teacher_comments.ipynb` | `R3_G_der_ieee.json` | current-limited inverters on the IEEE feeders (cross-validation within each data set) |
+| H | `R3H_inverter_gridcode.ipynb` | `R3_H_inverter_gridcode.json` | grid-code inverter fault strategies (supplementary) |
+| T | `R3T_transfer_noleak.ipynb` | `R3_T_transfer_noleak.json` | model trained without inverters, tested on new faults with inverters (different random seed, overlap check) |
+| I | `R3I_ece.ipynb` | `R3_I_ece.json` | expected calibration error |
+
+The transfer columns of `R3_G_der_ieee.json` and `R3_H_inverter_gridcode.json` reuse the training seed
+and are superseded by part T.
 
 ## Installation
 
